@@ -1,0 +1,105 @@
+{
+  "nav": { "about": "关于", "projects": "项目", "stack": "技术栈", "experience": "经历", "notes": "笔记", "contact": "联系" },
+  "hero": {
+    "role": "全栈开发工程师",
+    "role_accent": "",
+    "bio": "Loopia市场团队开发工程师，构建和维护系统与电商平台之间的集成。主要技术栈：Python、FastAPI、Django和React。",
+    "cta_projects": "查看项目",
+    "cta_linkedin": "领英",
+    "cta_cv": "下载简历"
+  },
+  "about": {
+    "label": "/ 关于我",
+    "title_1": "认识",
+    "title_2": "Ygor Volstein",
+    "story_label": "我的故事",
+    "p1": "我于2023年作为移动端开发者进入这个行业，自学编程。很快转向后端开发，在那里找到了我最喜欢解决的问题，并承担起越来越多的责任。",
+    "p2": "此后进展很快：从移动端开发者到Loopia市场团队开发工程师——负责系统与电商平台之间的集成。同时在UNIFEBE攻读信息系统学位。",
+    "pivot": "从移动端到后端——短短几年。",
+    "stat_years": "年从业经验",
+    "stat_companies": "家公司",
+    "stat_stacks": "日常使用的语言",
+    "now_label": "当前",
+    "now_value": "市场团队 · Loopia",
+    "now_value_short": "市场团队",
+    "github_sub": "查看代码仓库",
+    "linkedin_sub": "查看主页",
+    "off_duty": "工作之外",
+    "hobby_football": "足球",
+    "hobby_family": "家人与朋友"
+  },
+  "projects": {
+    "label": "/ 项目",
+    "title_1": "我正在",
+    "title_2": "构建什么",
+    "status_dev": "开发中",
+    "status_academic": "学术项目",
+    "repo": "代码仓库",
+    "backend": "后端",
+    "dashboard": "仪表盘",
+    "agendabot": {
+      "tagline": "通过Telegram为自由职业者提供自动预约服务",
+      "description": "允许自由职业者通过Telegram提供24小时预约服务，无需手动回复。机器人自主管理时间段、确认和提醒。WhatsApp集成开发中。"
+    },
+    "picking": {
+      "tagline": "KYLY纺织企业拣货应用",
+      "description": "为KYLY纺织公司开发的移动应用和网页仪表盘，用于优化拣货流程。使用Flutter开发的团队学术项目，具有独立后端。"
+    }
+  },
+  "skills": {
+    "label": "/ 技术栈",
+    "title_1": "我使用的",
+    "title_2": "工具",
+    "group_backend":    "后端",
+    "group_clientside": "移动端 & 前端",
+    "group_data":       "数据 & 云",
+    "always_learning": "$ 持续学习中"
+  },
+  "experience": {
+    "label": "/ 工作经历",
+    "title_1": "我工作过",
+    "title_2": "的地方",
+    "loopia_role": "开发工程师 · 市场团队",
+    "loopia_desc": "在Loopia市场团队，构建和维护与WhatsApp、TikTok Shop等渠道的集成，确保稳定可靠。技术栈：Python、FastAPI、Django。",
+    "dextak_role": "移动端开发工程师",
+    "dextak_desc": "使用Flutter和Dart为代理商客户开发移动应用。",
+    "edu_unifebe_name":   "UNIFEBE",
+    "edu_unifebe_degree": "信息系统学士",
+    "edu_senai_name":     "SENAI/SC",
+    "edu_senai_degree":   "系统开发技术员"
+  },
+  "notes": {
+    "label": "/ 笔记",
+    "title_1": "技术",
+    "title_2": "笔记",
+    "read": "阅读",
+    "soon": "即将推出"
+  },
+  "reveal": {
+    "marquee_top": "全栈 · 后端 · 市场集成",
+    "marquee_bottom": "Python · FastAPI · React · Flutter",
+    "caption": "Ygor Volstein — Brusque, BR"
+  },
+  "statement": {
+    "line1": "我构建的东西",
+    "line2a": "真实的，",
+    "line2b": "可扩展的，",
+    "line3": "已在生产环境运行。",
+    "cta": "联系我 ↗"
+  },
+  "contact": {
+    "label": "/ 联系",
+    "title_1": "给我发一条",
+    "title_2": "消息",
+    "name_label": "姓名",
+    "name_placeholder": "您的姓名",
+    "email_label": "邮箱",
+    "message_label": "消息",
+    "message_placeholder": "在这里写...",
+    "send": "发送消息",
+    "sending": "发送中...",
+    "success": "✓ 消息已发送！",
+    "error": "出了点问题，请重试。",
+    "or": "或在以下平台找到我"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "nav": { "about": "About", "projects": "Projects", "stack": "Stack", "experience": "Experience", "notes": "Notes", "contact": "Contact" },
+  "hero": {
+    "role": "Full-Stack Developer",
+    "role_accent": "& AI",
+    "bio": "Developer on the Marketplaces team at Loopia, where I build and maintain integrations between systems and marketplaces. Main stack: Python, FastAPI, Django and React.",
+    "cta_projects": "See projects",
+    "cta_linkedin": "LinkedIn",
+    "cta_cv": "Download CV"
+  },
+  "about": {
+    "label": "/ about",
+    "title_1": "Who is",
+    "title_2": "Ygor Volstein",
+    "story_label": "my story",
+    "p1": "I broke into the field in 2023 as a mobile developer, teaching myself to code. I soon moved to the backend, where I found the problems I enjoy most, and took on growing responsibilities.",
+    "p2": "Progress came fast after that: from mobile dev to developer on the Marketplaces team at Loopia — responsible for integrations between systems and marketplaces. I'm also studying Information Systems at UNIFEBE and building my own projects on the side.",
+    "pivot": "From the textile industry to AI development — in under 4 years.",
+    "stat_years": "years in the field",
+    "stat_companies": "companies",
+    "stat_stacks": "languages day to day",
+    "now_label": "Currently",
+    "now_value": "Marketplaces Team · Loopia",
+    "now_value_short": "Marketplaces Team",
+    "github_sub": "View repositories",
+    "linkedin_sub": "View profile",
+    "off_duty": "off the clock",
+    "hobby_football": "Football",
+    "hobby_family": "Family & friends"
+  },
+  "projects": {
+    "label": "/ projects",
+    "title_1": "What I'm",
+    "title_2": "building",
+    "status_dev": "In development",
+    "status_academic": "Academic project",
+    "repo": "Repository",
+    "backend": "Backend",
+    "dashboard": "Dashboard",
+    "agendabot": {
+      "tagline": "Automated scheduling via Telegram for freelancers",
+      "description": "A system that allows independent professionals to offer 24/7 scheduling via Telegram without manual replies. The bot autonomously manages time slots, confirmations and reminders. WhatsApp integration in development."
+    },
+    "picking": {
+      "tagline": "Picking app for KYLY textile industry",
+      "description": "Mobile app and web dashboard to optimize the parts-picking process at KYLY, a textile company in Brusque, SC. Academic team project with its own backend, built with Flutter."
+    }
+  },
+  "skills": {
+    "label": "/ stack",
+    "title_1": "Tools",
+    "title_2": "I use",
+    "group_backend":    "Back-end",
+    "group_clientside": "Mobile & Front-end",
+    "group_data":       "Data & Cloud",
+    "always_learning": "$ always learning"
+  },
+  "experience": {
+    "label": "/ experience",
+    "title_1": "Where I've",
+    "title_2": "worked",
+    "loopia_role": "Developer · Marketplaces Team",
+    "loopia_desc": "On the Marketplaces team, I build and maintain integrations on a high-demand platform — robust, scalable and reliable. Stack: Python, FastAPI, Django.",
+    "dextak_role": "Mobile Developer",
+    "dextak_desc": "Mobile app development for agency clients using Flutter and Dart.",
+    "edu_unifebe_name":   "UNIFEBE",
+    "edu_unifebe_degree": "Bachelor's in Information Systems",
+    "edu_senai_name":     "SENAI/SC",
+    "edu_senai_degree":   "Technical Degree in Systems Development"
+  },
+  "reveal": {
+    "marquee_top": "Full-Stack · AI · Marketplaces",
+    "marquee_bottom": "Python · FastAPI · React · Flutter",
+    "caption": "Ygor Volstein — Brusque, BR"
+  },
+  "notes": {
+    "label": "/ notes",
+    "title_1": "Technical",
+    "title_2": "notes",
+    "read": "Read",
+    "soon": "Coming soon"
+  },
+  "statement": {
+    "line1": "I BUILD THINGS",
+    "line2a": "REAL,",
+    "line2b": "AT SCALE,",
+    "line3": "IN PRODUCTION.",
+    "cta": "Get in touch ↗"
+  },
+  "contact": {
+    "label": "/ contact",
+    "title_1": "Send me a",
+    "title_2": "message",
+    "name_label": "Name",
+    "name_placeholder": "Your name",
+    "email_label": "E-mail",
+    "message_label": "Message",
+    "message_placeholder": "Write here...",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "✓ Message sent!",
+    "error": "Something went wrong. Try again.",
+    "or": "Or find me at"
+  }
+}

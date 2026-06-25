@@ -1,0 +1,105 @@
+{
+  "nav": { "about": "Sobre mí", "projects": "Proyectos", "stack": "Stack", "experience": "Experiencia", "notes": "Notas", "contact": "Contacto" },
+  "hero": {
+    "role": "Desarrollador Full-Stack",
+    "role_accent": "& IA",
+    "bio": "Desarrollador en el equipo de Marketplaces en Loopia, donde construyo y mantengo integraciones entre sistemas y marketplaces. Stack principal: Python, FastAPI, Django y React.",
+    "cta_projects": "Ver proyectos",
+    "cta_linkedin": "LinkedIn",
+    "cta_cv": "Descargar CV"
+  },
+  "about": {
+    "label": "/ sobre",
+    "title_1": "Quién es",
+    "title_2": "Ygor Volstein",
+    "story_label": "mi historia",
+    "p1": "Entré al área en 2023 como desarrollador mobile, aprendiendo a programar por mi cuenta. Pronto migré al backend, donde encontré los problemas que más me gusta resolver, y asumí responsabilidades cada vez mayores.",
+    "p2": "Desde entonces el avance fue rápido: de dev mobile a desarrollador en el equipo de Marketplaces en Loopia — responsable de integraciones entre sistemas y marketplaces. También curso Sistemas de Información en UNIFEBE.",
+    "pivot": "Del desarrollo mobile al backend — en pocos años.",
+    "stat_years": "años en el área",
+    "stat_companies": "empresas",
+    "stat_stacks": "lenguajes en el día a día",
+    "now_label": "Actualmente",
+    "now_value": "Equipo de Marketplaces · Loopia",
+    "now_value_short": "Equipo de Marketplaces",
+    "github_sub": "Ver repositorios",
+    "linkedin_sub": "Ver perfil",
+    "off_duty": "fuera del trabajo",
+    "hobby_football": "Fútbol",
+    "hobby_family": "Familia y amigos"
+  },
+  "projects": {
+    "label": "/ proyectos",
+    "title_1": "Lo que estoy",
+    "title_2": "construyendo",
+    "status_dev": "En desarrollo",
+    "status_academic": "Proyecto académico",
+    "repo": "Repositorio",
+    "backend": "Backend",
+    "dashboard": "Dashboard",
+    "agendabot": {
+      "tagline": "Agendamiento automático vía Telegram para autónomos",
+      "description": "Sistema que permite a profesionales autónomos ofrecer agendamiento 24h por Telegram sin responder manualmente. El bot gestiona horarios, confirmaciones y recordatorios de forma autónoma. Integración con WhatsApp en desarrollo."
+    },
+    "picking": {
+      "tagline": "App de picking para la industria textil KYLY",
+      "description": "Aplicación mobile y dashboard web para optimizar el proceso de picking en KYLY, empresa textil en Brusque/SC. Proyecto académico en equipo con backend propio, desarrollado con Flutter."
+    }
+  },
+  "skills": {
+    "label": "/ stack",
+    "title_1": "Herramientas",
+    "title_2": "que uso",
+    "group_backend":    "Back-end",
+    "group_clientside": "Mobile & Front-end",
+    "group_data":       "Datos & Cloud",
+    "always_learning": "$ siempre aprendiendo"
+  },
+  "experience": {
+    "label": "/ experiencia",
+    "title_1": "Dónde he",
+    "title_2": "trabajado",
+    "loopia_role": "Desarrollador · Equipo de Marketplaces",
+    "loopia_desc": "En el equipo de Marketplaces, construyo y mantengo integraciones con WhatsApp, TikTok Shop y otros canales — robustas y confiables. Stack: Python, FastAPI, Django.",
+    "dextak_role": "Desarrollador Mobile",
+    "dextak_desc": "Desarrollo de aplicaciones mobile para clientes de la agencia usando Flutter y Dart.",
+    "edu_unifebe_name":   "UNIFEBE",
+    "edu_unifebe_degree": "Licenciatura en Sistemas de Información",
+    "edu_senai_name":     "SENAI/SC",
+    "edu_senai_degree":   "Técnico en Desarrollo de Sistemas"
+  },
+  "reveal": {
+    "marquee_top": "Full-Stack · IA · Marketplaces",
+    "marquee_bottom": "Python · FastAPI · React · Flutter",
+    "caption": "Ygor Volstein — Brusque, BR"
+  },
+  "notes": {
+    "label": "/ notas",
+    "title_1": "Notas",
+    "title_2": "técnicas",
+    "read": "Leer",
+    "soon": "Próximamente"
+  },
+  "statement": {
+    "line1": "CONSTRUYO COSAS",
+    "line2a": "REALES,",
+    "line2b": "A ESCALA,",
+    "line3": "EN PRODUCCIÓN.",
+    "cta": "Hablemos ↗"
+  },
+  "contact": {
+    "label": "/ contacto",
+    "title_1": "Mándame un",
+    "title_2": "mensaje",
+    "name_label": "Nombre",
+    "name_placeholder": "Tu nombre",
+    "email_label": "Correo",
+    "message_label": "Mensaje",
+    "message_placeholder": "Escribe aquí...",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success": "✓ ¡Mensaje enviado!",
+    "error": "Algo salió mal. Inténtalo de nuevo.",
+    "or": "O encuéntrame en"
+  }
+}

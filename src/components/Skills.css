@@ -1,0 +1,74 @@
+.skills-section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.skills-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 80% 50%, rgba(34, 211, 238, 0.04) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+/* ── Nuvem de tecnologias ── */
+.skills-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.skill-pill {
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 10px 20px;
+  border-radius: 999px;
+  white-space: nowrap;
+  transition: color 0.2s, border-color 0.2s, background 0.2s, transform 0.2s;
+  cursor: default;
+}
+
+.skill-pill:hover {
+  color: var(--text);
+  border-color: rgba(249, 115, 22, 0.45);
+  background: var(--bg-hover);
+  transform: translateY(-2px);
+}
+
+.skills-note {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.note-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: var(--purple);
+  opacity: 0.7;
+  animation: blink 1s step-end infinite;
+}
+
+[data-theme="light"] .skills-section::before {
+  background: radial-gradient(ellipse at 80% 50%, rgba(8, 145, 178, 0.05) 0%, transparent 60%);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 0; }
+}
+
+@media (max-width: 640px) {
+  .skill-pill {
+    font-size: 0.875rem;
+    padding: 9px 16px;
+  }
+}

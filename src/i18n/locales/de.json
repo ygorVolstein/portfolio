@@ -1,0 +1,105 @@
+{
+  "nav": { "about": "Über mich", "projects": "Projekte", "stack": "Stack", "experience": "Erfahrung", "notes": "Notizen", "contact": "Kontakt" },
+  "hero": {
+    "role": "Full-Stack-Entwickler",
+    "role_accent": "& KI",
+    "bio": "Entwickler im Marketplaces-Team bei Loopia — entwickle und pflege Integrationen zwischen Systemen und Marketplaces. Stack: Python, FastAPI, Django und React.",
+    "cta_projects": "Projekte ansehen",
+    "cta_linkedin": "LinkedIn",
+    "cta_cv": "Lebenslauf"
+  },
+  "about": {
+    "label": "/ über mich",
+    "title_1": "Wer ist",
+    "title_2": "Ygor Volstein",
+    "story_label": "meine Geschichte",
+    "p1": "2023 stieg ich als Mobile-Entwickler in die Branche ein und brachte mir das Programmieren selbst bei. Bald wechselte ich ins Backend, wo ich die Probleme fand, die ich am liebsten löse, und übernahm wachsende Verantwortung.",
+    "p2": "Danach ging es schnell voran: vom Mobile-Dev zum Entwickler im Marketplaces-Team bei Loopia — verantwortlich für Integrationen zwischen Systemen und Marketplaces. Nebenbei studiere ich Informationssysteme an der UNIFEBE.",
+    "pivot": "Von der Mobile-Entwicklung zum Backend — in wenigen Jahren.",
+    "stat_years": "Jahre im Bereich",
+    "stat_companies": "Unternehmen",
+    "stat_stacks": "Sprachen im Alltag",
+    "now_label": "Aktuell",
+    "now_value": "Marketplaces-Team · Loopia",
+    "now_value_short": "Marketplaces-Team",
+    "github_sub": "Repositories ansehen",
+    "linkedin_sub": "Profil ansehen",
+    "off_duty": "nach der Arbeit",
+    "hobby_football": "Fußball",
+    "hobby_family": "Familie & Freunde"
+  },
+  "projects": {
+    "label": "/ projekte",
+    "title_1": "Was ich gerade",
+    "title_2": "baue",
+    "status_dev": "In Entwicklung",
+    "status_academic": "Akademisches Projekt",
+    "repo": "Repository",
+    "backend": "Backend",
+    "dashboard": "Dashboard",
+    "agendabot": {
+      "tagline": "Automatische Terminplanung via Telegram für Freelancer",
+      "description": "Ein System, das Freiberuflern ermöglicht, über Telegram 24/7 Termine anzubieten, ohne manuell zu antworten. Der Bot verwaltet Zeitfenster, Bestätigungen und Erinnerungen autonom. WhatsApp-Integration in Entwicklung."
+    },
+    "picking": {
+      "tagline": "Kommissionierungs-App für die Textilindustrie KYLY",
+      "description": "Mobile App und Web-Dashboard zur Optimierung des Kommissionierungsprozesses bei KYLY, einem Textilunternehmen in Brusque/SC. Akademisches Teamprojekt mit eigenem Backend, entwickelt mit Flutter."
+    }
+  },
+  "skills": {
+    "label": "/ stack",
+    "title_1": "Werkzeuge",
+    "title_2": "die ich nutze",
+    "group_backend":    "Back-end",
+    "group_clientside": "Mobile & Front-end",
+    "group_data":       "Daten & Cloud",
+    "always_learning": "$ immer am Lernen"
+  },
+  "experience": {
+    "label": "/ erfahrung",
+    "title_1": "Wo ich",
+    "title_2": "gearbeitet habe",
+    "loopia_role": "Entwickler · Marketplaces-Team",
+    "loopia_desc": "Im Marketplaces-Team entwickle und pflege ich Integrationen mit WhatsApp, TikTok Shop und anderen Kanälen — robust und zuverlässig. Stack: Python, FastAPI, Django.",
+    "dextak_role": "Mobile-Entwickler",
+    "dextak_desc": "Entwicklung mobiler Apps für Agenturkunden mit Flutter und Dart.",
+    "edu_unifebe_name":   "UNIFEBE",
+    "edu_unifebe_degree": "Bachelor Informationssysteme",
+    "edu_senai_name":     "SENAI/SC",
+    "edu_senai_degree":   "Techniker Systementwicklung"
+  },
+  "reveal": {
+    "marquee_top": "Full-Stack · KI · Marketplaces",
+    "marquee_bottom": "Python · FastAPI · React · Flutter",
+    "caption": "Ygor Volstein — Brusque, BR"
+  },
+  "notes": {
+    "label": "/ notizen",
+    "title_1": "Technische",
+    "title_2": "Notizen",
+    "read": "Lesen",
+    "soon": "Demnächst"
+  },
+  "statement": {
+    "line1": "ICH BAUE DINGE",
+    "line2a": "ECHT,",
+    "line2b": "SKALIERBAR,",
+    "line3": "IN PRODUKTION.",
+    "cta": "Kontakt aufnehmen ↗"
+  },
+  "contact": {
+    "label": "/ kontakt",
+    "title_1": "Schick mir eine",
+    "title_2": "Nachricht",
+    "name_label": "Name",
+    "name_placeholder": "Dein Name",
+    "email_label": "E-Mail",
+    "message_label": "Nachricht",
+    "message_placeholder": "Schreib hier...",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "✓ Nachricht gesendet!",
+    "error": "Etwas ist schiefgelaufen. Versuch es nochmal.",
+    "or": "Oder finde mich auf"
+  }
+}

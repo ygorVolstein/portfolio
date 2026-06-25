@@ -1,0 +1,158 @@
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 20px 0;
+  transition: background 0.3s, border-color 0.3s, padding 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar.scrolled {
+  background: rgba(var(--bg-rgb), 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-color: var(--border);
+  padding: 14px 0;
+}
+
+.nav-inner { display: flex; align-items: center; gap: 32px; }
+
+.nav-logo {
+  font-family: var(--mono);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text);
+  flex-shrink: 0;
+}
+.logo-bracket { color: var(--purple); }
+
+.nav-links { display: flex; list-style: none; gap: 28px; margin-left: auto; }
+
+.nav-link {
+  font-size: 0.875rem;
+  color: var(--text-dim);
+  transition: color 0.2s;
+}
+.nav-link:hover { color: var(--text); }
+
+.nav-controls { display: flex; align-items: center; gap: 8px; }
+
+/* Language picker */
+.lang-picker { position: relative; }
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+.lang-btn:hover { color: var(--text); border-color: rgba(139,92,246,0.3); }
+
+.lang-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  list-style: none;
+  min-width: 80px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  z-index: 200;
+}
+
+.lang-option {
+  display: block;
+  width: 100%;
+  padding: 9px 14px;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s, color 0.15s;
+}
+.lang-option:hover { background: var(--bg-hover); color: var(--text); }
+.lang-option.active { color: var(--purple); font-weight: 600; }
+
+/* Theme toggle */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.theme-toggle:hover { color: var(--text); border-color: rgba(139,92,246,0.3); background: var(--bg-hover); }
+
+.nav-cta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--purple);
+  border: 1px solid rgba(139,92,246,0.3);
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background 0.2s, border-color 0.2s;
+  white-space: nowrap;
+}
+.nav-cta:hover { background: rgba(139,92,246,0.1); border-color: var(--purple); }
+
+/* Burger */
+.nav-burger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; margin-left: auto; }
+.nav-burger span { display: block; width: 22px; height: 2px; background: var(--text); border-radius: 2px; transition: transform 0.2s, opacity 0.2s; }
+.nav-burger span.open:first-child { transform: translateY(7px) rotate(45deg); }
+.nav-burger span.open:last-child  { transform: translateY(-7px) rotate(-45deg); }
+
+/* Mobile menu */
+.nav-mobile {
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+  padding: 16px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.mobile-link {
+  display: block;
+  padding: 12px 0;
+  font-size: 1rem;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  transition: color 0.2s;
+}
+.mobile-link:last-of-type { border-bottom: none; }
+.mobile-link:hover { color: var(--text); }
+
+.mobile-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 12px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .nav-links, .nav-cta, .nav-controls { display: none; }
+  .nav-burger { display: flex; }
+}

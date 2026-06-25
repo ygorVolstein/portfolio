@@ -1,0 +1,72 @@
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #04040a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-content {
+  text-align: left;
+  user-select: none;
+}
+
+.loader-line {
+  display: flex;
+  overflow: hidden;
+  line-height: 1;
+}
+
+.loader-clip {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.loader-letter {
+  display: inline-block;
+  font-family: 'Sora', system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.loader-letter.first {
+  font-size: clamp(4rem, 14vw, 10rem);
+  line-height: 0.9;
+}
+
+.loader-letter.second {
+  font-size: clamp(4rem, 14vw, 10rem);
+  line-height: 0.9;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.35);
+}
+
+.loader-bar {
+  height: 1.5px;
+  background: linear-gradient(90deg, #f97316, #fbbf24, transparent);
+  margin-top: 20px;
+  transform-origin: left;
+}
+
+.loader-sub {
+  margin-top: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.loader-corner {
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.2);
+}
